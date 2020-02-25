@@ -162,7 +162,7 @@
           transition-delay: 0.4s;
 }
 
-@media screen and (min-width: 501px) and (max-width: 768) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
   main {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -184,15 +184,20 @@
             transform: translate3d(0, 0, 0);
   }
   .menu-nav {
-    height: 75vh;
+    height: 70vh;
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
     font-size: 24px;
   }
   .menu-branding {
-    height: 25vh;
+    height: 30vh;
     -webkit-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
+  }
+  .menu-branding .portrait {
+    background: url(/img/portrait1.png);
+    width: 200px;
+    height: 200px;
   }
 }
 
